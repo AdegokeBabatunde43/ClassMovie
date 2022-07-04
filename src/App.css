@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +9,42 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.banner{
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form{
+  position: sticky;
+  top: 0px;
+  bottom: 0;
+}
+.film{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+.poster img{
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+}
+/* .poster_img img{
+  margin-right: 40px;
+} */
+.movie-title{
+  text-align: center;
+}
+.movie_overview{
+  text-align: center;
+}
+.movie-film{
+text-align: center;
+color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
